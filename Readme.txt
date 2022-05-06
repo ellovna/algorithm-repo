@@ -1,2 +1,1 @@
-First it was Ella Ellovna
-Now it is EO
+///Now it is just EO
