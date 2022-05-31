@@ -1,4 +1,4 @@
-# Compute the sum of digits in all numbers form 1 to n
+ # Compute the sum of digits in all numbers form 1 to n
 # When a user enters a number n, find the sum from 1 to n
 # Example: n = 5. Result = 1 + 2 + 3 + 4 + 5 = 15
 # Exercise # 1
@@ -62,3 +62,22 @@
 #    print('number is even')
 # else:
 #    print('number is odd')
+
+# 0(n)
+# def count_odd_even(n):
+#     odds = []
+#     evens = []
+#
+#     while n != 0:
+#         current_digit = n % 10
+#         if current_digit % 2:
+#              odds.append(current_digit)
+#         else:
+#             evens.append(current_digit)
+#         n = n // 10
+#
+#     return ['Evens : ' + str(evens), 'Odds: ' + str(odds)]
+#
+#
+# print(count_odd_even(34568))
+#
